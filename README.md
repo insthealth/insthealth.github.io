@@ -1,2 +1,2 @@
-# [Institute of Health](https://insthealth.ru)
+# [Institute of Health](https://insthealth.github.io)
 [Wiki](https://github.com/insthealth/insthealth.github.io/wiki)
