@@ -2,4 +2,4 @@
 
 
 [Wiki](https://github.com/insthealth/insthealth.github.io/wiki)
-[About]()
+[About](https://insthealth.github.io/about/about.html)
