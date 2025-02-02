@@ -34,6 +34,22 @@
     color: #333;
     margin: 0 auto;
     text-align: center;
+    width: 35ch;
+    animation: typing 3s steps(35), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
   }
   
   h1 {
