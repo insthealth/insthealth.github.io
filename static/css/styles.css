@@ -21,6 +21,7 @@
   body {
     margin: 0;
     padding: 0;
+    align-items: center;
     background-color: #FFFFDD;
     color: #28355F;
     font-family: -apple-system, 
@@ -33,7 +34,7 @@
       "Helvetica Neue", 
       sans-serif;
   }
-    
+  
   .container {
     color: #333;
     margin: 0 auto;
