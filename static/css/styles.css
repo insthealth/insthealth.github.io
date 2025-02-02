@@ -3,9 +3,18 @@
     --smaller: .75;
   }
   
-  body {
+  * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+  }
+  
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+  body {
     align-items: center;
     background-color: #FFFFDD;
     color: #28355F;
@@ -165,26 +174,4 @@
   
   #menu a:hover {
     color: black;
-  }
-  
-  .typing {
-    width: 35ch;
-    animation: typing 3s steps(35), blink .5s step-end infinite alternate;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 3px solid;
-    font-family: monospace;
-    font-size: 2em;
-  }
-  
-  @keyframes typing {
-    from {
-      width: 0
-    }
-  }
-      
-  @keyframes blink {
-    50% {
-      border-color: transparent
-    }
   }
