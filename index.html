@@ -9,8 +9,25 @@
   </head>
   <!-- Без комментариев) -->
   <body>
+    <nav role="navigation">
+      <div id="menuToggle">
+        <input type="checkbox" id="menuCheckbox"/>
+        
+        <span></span>
+        <span></span>
+        <span></span>
+        
+        <ul id="menu">
+          <li><a href="https://insthealth.ru/"><label for="menuCheckbox" onclick="this.parentNode.click();">Home</label></a></li>
+          <li><a href="https://insthealth.ru/news"><label for="menuCheckbox" onclick="this.parentNode.click();">News</label></a></li>
+          <li><label for="menuCheckbox"><a>Info</a></label></li>
+          <li><label for="menuCheckbox"><a>Contact</a></label></li>
+          <li><a href="https://insthealth.ru/table/" target="_blank">Show me more</a></li>
+        </ul>
+      </div>
+    </nav>
     <div class="container">
-        <div class="typeing">
+        <div class="typing">
           <h1 id="headline">Countdown to InstHealth.ru birthday</h1>
         </div>
       <div id="countdown">
