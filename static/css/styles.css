@@ -37,8 +37,8 @@
   }
 
   #headline {
-    width: 38ch;
-    animation: typing 3s steps(38), blink .5s step-end infinite alternate;
+    width: 42ch;
+    animation: typing 3s steps(42), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
